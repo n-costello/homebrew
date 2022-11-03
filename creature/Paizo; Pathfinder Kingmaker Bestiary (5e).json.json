@@ -1,0 +1,1133 @@
+{
+	"siteVersion": "1.169.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Kingmaker",
+				"abbreviation": "PKB",
+				"full": "Pathfinder: Kingmaker Bestiary",
+				"url": "https://paizo.com/products/btq02e0o?Pathfinder-Kingmaker-Bestiary",
+				"authors": [
+					"Jeremy Corff",
+					"Robert J. Grady",
+					"Tim Hitchcock",
+					"Jeff Ibach",
+					"Victoria Jaczko",
+					"Matt Kimmel",
+					"Jeff Lee",
+					"Julian Neale",
+					"Chris Perrin",
+					"Tom Phillips",
+					"Alex Riggs"
+				],
+				"convertedBy": [
+					"ryves#5846"
+				]
+			}
+		],
+		"dateAdded": 1667504589,
+		"dateLastModified": 1667504589
+	},
+	"monster": [
+		{
+			"name": "Ankou",
+			"shortName": "ankou",
+			"source": "Kingmaker",
+			"page": 8,
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "20d10 + 120",
+				"average": 230
+			},
+			"speed": {
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 22,
+			"dex": 24,
+			"con": 22,
+			"int": 17,
+			"wis": 19,
+			"cha": 22,
+			"skill": {
+				"stealth": "+12"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"can understand Aklo",
+				"Common",
+				"and Sylvan (but doesn’t speak); telepathy 100 ft."
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The ankou’s innate spellcasting ability is Charisma (spell save {@dc 19}). The ankou can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell darkness}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell circle of death}",
+							"{@spell prismatic spray}",
+							"{@spell teleport}",
+							"{@spell true seeing}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The ankou's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Shadow Doubles (1/Day)",
+					"entries": [
+						"The ankou summons 4 shadow copies which appear within 60 feet of the ankou and remain for 6 rounds. The copies act on the ankou’s initiative, have 20% of the ankou’s current hit points, can make only one claw attack on its turn, and have none of the ankou’s other special abilities or spellcasting. A copy disappears if the ankou is ever more than 120 feet away, or {@condition unconscious}, or if a light, sunlight, or similar spell illuminates it."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"The ankou deals an extra 13 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the ankou that isn't {@condition incapacitated} and the ankou doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ankou makes two attacks: one with its claw and one with its wing"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Wing",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d12 + 7}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Ankous are shadowy killers who serve powerful fey creatures or demigods. Amid the courts of the Eldest or of powerful fey rulers, these sinister assassins lurk overhead as they await the call to action—implied threats akin to deadly weapons hung as decor in a royal hall. Two types of ankous play roles in {@i Kingmaker}— the typical ankou and the more dangerous assassins.",
+					"Ankous never speak aloud; when they feel the need to communicate at all, they do so in a telepathic whisper directly into a victim’s mind (although they still must be able to understand the victim’s language in order to communicate). While an ankou’s body is made of strange, fleshy material, its claws and the cruel hooks on its wings are made of razor sharp cold iron, a quality that makes them feared among other fey. A typical ankou is 10 feet tall, has an 8-foot wingspan, and weighs less than 80 pounds"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HQ3m3XP.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/WS0iZYq.png",
+			"traitTags": [
+				"Magic Weapons",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"N"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Ankou Assassin",
+			"shortName": "ankou assassin",
+			"source": "Kingmaker",
+			"page": 8,
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "22d10 + 88",
+				"average": 209
+			},
+			"speed": {
+				"fly": {
+					"number": 75,
+					"condition": "(can hover)"
+				},
+				"canHover": true
+			},
+			"str": 22,
+			"dex": 24,
+			"con": 19,
+			"int": 15,
+			"wis": 15,
+			"cha": 20,
+			"skill": {
+				"stealth": "+13",
+				"deception": "+11",
+				"intimidation": "+11",
+				"perception": "+8"
+			},
+			"senses": [
+				"blindsight 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"can understand Aklo",
+				"Common",
+				"and Sylvan (but doesn’t speak); telepathy 100 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The ankou assassin’s innate spellcasting ability is Charisma (spell save {@dc 19}). The ankou assassin can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell darkness}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell circle of death}",
+							"{@spell locate creature}",
+							"{@spell mirror image}",
+							"{@spell project image}",
+							"{@spell silence}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The ankou assassin's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Shadow Doubles (1/Day)",
+					"entries": [
+						"The ankou assassin summons 4 shadow copies which appear within 60 feet of the ankou and remain for 6 rounds. The copies act on the ankou’s initiative, have 20% of the ankou’s current hit points, can make only one claw attack on its turn, and have none of the ankou’s other special abilities or spellcasting. A copy disappears if the ankou is ever more than 120 feet away, or {@condition unconscious}, or if a {@spell light}, {@spell sunlight}, or similar spell illuminates it."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"The ankou assassin deals an extra 31 ({@dice 9d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the ankou assassin that isn't {@condition incapacitated} and the ankou assassin doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the ankou assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the ankou assassin scores against a {@quickref Surprise|PHB|3|0|surprised} creature is a critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ankou assassin makes two attacks: one with its claw and one with its wing"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Wing",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d12 + 7}) slashing damage, and the target must make a {@dc 17} Constitution saving throw, taking 18 ({@dice 4d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The ankou assassins who serve Nyrissa have trained in the arts of pain and slaughter, relying on their natural weapons to carry out their murderous missions. Ankou assassins like these could well serve other powerful fey, or even some of the Eldest as instruments of punishment."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HQ3m3XP.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/uNrmXVi.png",
+			"traitTags": [
+				"Magic Weapons",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"N"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Assassin Vine",
+			"shortName": "assassin vine",
+			"source": "Kingmaker",
+			"page": 10,
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d10 + 12",
+				"average": 45
+			},
+			"speed": {
+				"walk": 5
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 13,
+			"cha": 9,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"cold",
+				"fire"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"Assassin vines has advantage on Dexterity ({@skill Stealth}) checks when hiding among foliage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}). A {@condition grappled} target automatically takes 12 ({@damage 2d8 + 3}) bludgeoning damage at the start of each of the assassin vine’s turns."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The assassin vine is a carnivorous plant with a voracious appetite. Rather than consuming prey directly, it creates its own fertilizer by entangling a creature and squeezing the life from it, draping the freshly slain corpse over its own roots below. An assassin vine appears as a tangle of twisted vines that grows in clusters, often within hollowed out stumps or amid tangled tree branches. Longer barbed vines snake out from this central mass to give the deadly plant two dangerous methods of attack. The plant’s berries are something of an acquired taste, but among some cultures, wine made from these berries can be quite popular. Mature assassin vines grow to 20 feet long and have smaller vines extending off the main trunk that reach from to 5 to 10 feet in length."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/gtaxrLb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gF81eW9.png",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		},
+		{
+			"name": "Athach",
+			"shortName": "athach",
+			"source": "Kingmaker",
+			"page": 10,
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 5",
+				"average": 9
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 25,
+			"dex": 13,
+			"con": 21,
+			"int": 7,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"con": "+9",
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Jotun"
+			],
+			"cr": "12",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The athach makes any combination of two claw or slam attacks and one bite attack, or two rock attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage, and the target must make a {@dc 16} Constitution saving throw. On a failed save the target takes 10 ({@damage 3d6}) poison damage and becomes {@condition poisoned} for one hour. On a success, the target takes half as much damage and is not {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}18 ({@damage 2d10 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Thrown Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}23 ({@damage 3d10 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The towering and brutish giants known as athaches are reviled for both their monstrosity and cruelty. In addition to having slovenly habits and poisonous fangs, this giant sports a gangly third arm that protrudes from its torso and ends in a twitching, long-fingered claw.",
+					"These giants despise civilization almost as much as they despise their own kind, and they delight in acts of sadism and terror. They generally don’t keep long-lasting territories or lairs, and are fond of a more nomadic lifestyle—traveling from region to region and often leaving little more than ruins behind."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/07nEJgb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/OBEGaUo.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Bloomborn Athach",
+			"shortName": "bloomborn athach",
+			"source": "Kingmaker",
+			"page": 10,
+			"size": [
+				"H"
+			],
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "23d12 + 92",
+				"average": 241
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 25,
+			"dex": 16,
+			"con": 19,
+			"int": 11,
+			"wis": 18,
+			"cha": 6,
+			"save": {
+				"con": "+10",
+				"wis": "+10",
+				"cha": "+4"
+			},
+			"skill": {
+				"athletics": "+13",
+				"perception": "+10",
+				"intimidation": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"Aklo",
+				"Jotun",
+				"Sylvan"
+			],
+			"cr": "17",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bloomborn athach makes any combination of two claw or slam attacks and one bite attack, or two rock attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}20 ({@damage 3d8 + 7}) piercing damage, and the target must make a {@dc 17} Constitution saving throw; on a failed saving throw the target takes 10 ({@damage 3d6}) poison damage and becomes {@condition poisoned} for one hour, and on a success, the target takes half as much damage and does not become {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Thrown Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 80/320 ft., one target. {@h}33 ({@damage 4d12 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Athaches who have become infused with the raw power of twisted life (such as that which suffuses Nyrissa’s realm of Thousandbreaths) grow vastly in power, transforming into creatures known as Bloomborn athaches. While these athaches are devastating in combat, many powerful fey force these giants to serve them as gardeners, farmers, or laborers—oft believing that visitors who see these powerful creatures working on such minor tasks will come to understand and respect the power of their leader."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/07nEJgb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/mnWFZZ8.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Bythos Aeon",
+			"shortName": "bythos",
+			"source": "Kingmaker",
+			"page": 7,
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d10 + 110",
+				"average": 231
+			},
+			"speed": {
+				"fly": 35,
+				"canHover": false
+			},
+			"str": 26,
+			"dex": 19,
+			"con": 20,
+			"int": 25,
+			"wis": 29,
+			"cha": 20,
+			"save": {
+				"str": "+13",
+				"dex": "+9",
+				"con": "+10",
+				"int": "+12"
+			},
+			"skill": {
+				"arcana": "+12",
+				"athletics": "+18",
+				"deception": "+10",
+				"intimidation": "+10",
+				"nature": "+12",
+				"perception": "+19",
+				"religion": "+12",
+				"stealth": "+19"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 29,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"telepathy 100 ft. (can communicate with living creatures that do not have language)"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The bythos’s spellcasting ability is Charisma (spell save {@dc 18}). The bythos can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell dimension door}",
+						"{@spell plane shift}",
+						"{@spell slow}"
+					],
+					"daily": {
+						"1": [
+							"{@spell imprisonment}"
+						],
+						"3e": [
+							"{@spell counterspell}",
+							"{@spell haste}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Confusing Gaze",
+					"entries": [
+						"A creature that ends its turn within 30 feet of the bythos must make a {@dc 19} Wisdom saving throw. On a failure, it is confused until the end of its next turn, as per the spell of the same name. A creature that successfully saves is immune to this bythos’s confusing gaze for the next 24 hours. This is a magical effect, and immunity or protection against being {@condition charmed} apply."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The bythos's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The bythos regains 15 hit points at the start of its turn."
+					]
+				},
+				{
+					"name": "Temporal Reversion (1/Day)",
+					"entries": [
+						"If the bythos fails a saving throw, it can choose to reroll the saving throw. If it does, it must use the new roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bythos makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) bludgeoning damage, plus 9 ({@damage 2d8}) cold damage. If a creature is hit by two or more of the bythos’s slam attacks in one turn, that creature must make a {@dc 15} Constitution saving throw. On a failure, it ages {@dice 1d10} years and gains one level of {@condition exhaustion}. On a successful save, the target is immune to the aging and {@condition exhaustion} effects of the bythos’s slam attack for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"The bythos is a guardian of space and time that seeks out those who misuse planar and temporal magic. A bythos is a roughly humanoid creature with four arms and a body made of swirling clouds and mist. Despite its appearance, its body feels like dry stone.",
+							"Amethyst dragons pay particular attention to intrusions of the Far Realm into the Material Plane. They loathe the corruption that accompanies such intrusions into the world, making them fierce opponents of the Far Realm and any creatures warped by its touch. Strangely, though, they are intrigued by and fond of flumphs. These Aberrations, which oppose the depredations of mind flayers and other wicked Aberrations, remind amethyst dragons that allies can be found in the strangest places."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Aeon",
+								"entries": [
+									"Aeons are paragons of law above all else. They embody opposing concepts or forces and are tasked with maintaining balance between those two things. A wide number of different types of aeons exist, from relatively harmless scouts and diplomats to incredibly powerful protectors of creation and oblivion. These extraplanar creatures are native to the lawful neutral outer plane, where they can be encountered within that reality’s vast cities and urban sprawls. In the Kingmaker Adventure Path, though, only the bythos aeon plays a role."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/sYXSlRr.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/XaCckrf.png",
+			"traitTags": [
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"C"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Giant Animated Statue",
+			"shortName": "statue",
+			"source": "Kingmaker",
+			"page": 7,
+			"size": [
+				"H"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d12 + 35",
+				"average": 81
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 8,
+			"con": 20,
+			"int": 1,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Burn Alive",
+					"entries": [
+						"As a bonus action, the statue roasts a creature it has {@condition grappled} in the fires that burn inside its hollow spheres. The target takes 16 ({@damage 3d10}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The statue makes two attacks."
+					]
+				},
+				{
+					"name": "Sphere",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d12 + 6}) bludgeoning damage. If the target is a Medium creature, it must succeed on a {@dc 14} Dexterity save or be {@condition grappled} in one of the statues hollow spheres (escape {@dc 14}). The statue can hold up to 12 creatures in this way"
+					]
+				},
+				{
+					"name": "Flaming Coal",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 80/160 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, plus 9 ({@damage 2d8}) fire damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This animated object is a strange sight indeed—an apparently abstract statue made of more than a dozen stone orbs, several of which are hollow and feature openings that reveal the fires burning within them. When this statue animates, the orbs grind and roll against each other without separating but remain devoid of any obvious underlying support (almost as if the statue were an animated mass of spherical magnets). This statue is a depiction of the Outer God Yog-Sothoth, and can be found guarding any eldritch temple or location of interest to those who worship the so-called Lurker at the Threshold."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/dK9LGf9.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/XJKgly6.png",
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Vicious Army Ant Swarm",
+			"shortName": "swarm",
+			"source": "Kingmaker",
+			"page": 9,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"swarmSize": "S"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "11d10 + 55",
+				"average": 115
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 7,
+			"dex": 25,
+			"con": 20,
+			"int": 1,
+			"wis": 20,
+			"cha": 2,
+			"skill": {
+				"athletics": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Swarm (Swarm of Bats)",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small ant. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The swarm can attack every creature in its space with swarming bites."
+					]
+				},
+				{
+					"name": "Swarming Bites",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 0 ft., one target in the swarm's space. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) if the swarm has half of its hit points or lower, and the target must make a {@dc 15} Constitution saving throw. On a failed save, the target takes 7 ({@damage 2d6}) poison damage and is {@condition poisoned} until the start of the swarm’s next turn. On a success, the target takes half as much poison damage and is not {@condition poisoned}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Cling",
+					"entries": [
+						"When a creature leaves the swarm’s space, the army ant swarm can use its reaction to cling to that creature. If it does so, the amount of the swarm that was in the target’s space moves with the creature, splitting the swarm if the creature is Medium or smaller. Each part of the swarm acts on the same initiative. The clinging swarm has one-quarter of the swarm’s remaining hit points, removing those hit points from the swarm’s current total. Any separated portion of the swarm can continue to make swarming bite attacks. A creature can use its action to brush the ants off with a contested grapple check. If underwater or in high winds, the creature has advantage on its ability check. With a success, the creature removes itself from the swarm’s area, and the remaining ants return to the main swarm without provoking an attack of opportunity."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Army ant swarms are already much feared for their capacity to ravenously consume anything that lies in their path, but even they pale in comparison to particularly vicious army ant swarms. These swarms are often found in desolate tombs, sinister dungeons, or other underground places steeped in dangerous and unsettling traditions."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/l2NCRro.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		}
+	]
+}
